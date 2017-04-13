@@ -6,6 +6,7 @@ module Babosa
 
   module Transliterator
 
+    autoload :Azerbaijan, "babosa/transliterator/azerbaijan"
     autoload :Bulgarian,  "babosa/transliterator/bulgarian"
     autoload :Cyrillic,   "babosa/transliterator/cyrillic"
     autoload :Danish,     "babosa/transliterator/danish"
